@@ -1,0 +1,5 @@
+php-src/wp-content/uploads
+php-src/wp-content/debug.log
+.DS_Store
+php-src/wp-content/themes/galaxy-explorer/templates/test.php
+php-src/migrate

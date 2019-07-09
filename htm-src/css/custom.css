@@ -1,0 +1,236 @@
+/***************************************************
+* FONTS - start
+****************************************************/
+
+/***************************************************
+* FONTS - end
+****************************************************/
+
+/***************************************************
+* RESET - start
+****************************************************/
+body {
+	margin: 0;
+	min-width: 1000px;
+	color: #262727;
+	font: 16px/22px Helvetica, Arial, sans-serif;;
+	background: url(../images/bg-body.jpg) no-repeat #000 50% 0;
+}
+
+img {
+	border-style: none;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #6457c7;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #6457c7;
+}
+
+a:active {
+	background-color: transparent;
+}
+p{
+	margin-bottom: 25px;
+}
+
+input, textarea, select {
+	font: 100% Arial, Helvetica, sans-serif;
+	vertical-align: middle;
+	color:#767cb2;
+	background-color: #FFFFFF;
+	border-color: #c0c0c0;
+	border-width: 1px;
+	border-style: solid;
+	height: 20px;
+	padding: 5px;
+}
+form, fieldset {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+/***************************************************
+* RESET - end
+****************************************************/
+/***************************************************
+* COMMON CLASSES - start
+****************************************************/
+.clear:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/***************************************************
+* COMMON CLASSES - end
+****************************************************/
+/***************************************************
+* HEADER - start
+****************************************************/
+#header {
+	padding: 17px 0;
+}
+#header a{
+	float: right;
+}
+#header span{
+	display: block;
+	float: left;
+	font-size: 34px;
+    font-style: italic;
+    line-height: 80px;
+}
+
+
+/***************************************************
+* HEADER - end
+****************************************************/
+/***************************************************
+* HOMEPAGE - start
+****************************************************/
+body.home {
+	background: url(../images/bg-body-home.jpg) no-repeat #000 50% 0;
+	color:#ffffff;
+}
+.home .home-intro .container{
+	padding-bottom: 55px;
+}
+
+.home .home-intro h2 {
+	font-family: "Bauhaus W01 Light";
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 5px;
+}
+
+.home .home-intro img {
+	margin-bottom: 23px;
+}
+
+.home .home-intro p {
+	font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    width: 555px;
+}
+
+.home .home-intro p.intro {
+	font-family: "Bauhaus W01 Light";
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.home .home-intro ul {
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+
+.home .home-intro ul li {
+	margin-right: 10px;
+	float: left;
+}
+#telescope-feature{
+	position: absolute;
+	bottom: 0;
+	right:-100px;
+	margin-bottom: 0;
+}
+/***************************************************
+* HOMEPAGE - end
+****************************************************/
+
+/***************************************************
+* FOOTER - start
+****************************************************/
+#footer {
+	background: url(../images/bg-footer-home.jpg) no-repeat #000000;
+	position: relative;
+	padding-top: 36px;
+	min-height: 200px;
+}
+
+#footer .clients {
+	list-style: none;
+	margin: 0;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+#footer .clients li {
+	display: inline-block;
+	padding: 0 13px;
+	vertical-align: middle;
+}
+
+#footer .clients li img {
+	display: block;
+}
+
+#footer .footer-nav {
+	list-style: none;
+	margin: 0;
+	text-align: center;
+	font: 14px/18px Helvetica, Arial, sans-serif;
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+#footer .footer-nav li {
+	display: inline-block;
+	padding: 0 11px;
+	vertical-align: top;
+}
+
+#footer .footer-nav li a {
+	color: #FFFFFF;
+	font-family: "HelveticaNeueW01-45Ligh",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
+
+.social-networks {
+	list-style: none;
+	margin: 0;
+	text-align: center;
+	padding: 0 0 80px;
+}
+.social-networks li {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 5px;
+}
+
+.social-networks a {
+	background: url(../images/icn_tool_facebook.png) no-repeat 0 0;
+	width: 20px;
+	height: 20px;
+	text-indent: -9999px;
+	overflow: hidden;
+	float: left;
+}
+.social-networks a:hover {
+	background-position: center bottom;
+}
+
+.social-networks .twitter {
+	background: url(../images/icn_tool_twitter.png) no-repeat 0 0;
+}
+
+.social-networks .email {
+	background: url(../images/icn_tool_mail.png) no-repeat 0 0;
+}
+/***************************************************
+* FOOTER - end
+****************************************************/

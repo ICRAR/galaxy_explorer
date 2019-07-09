@@ -1,0 +1,2 @@
+[24-Jun-2015 02:20:26 America/New_York] PHP Warning:  require(/home/galaxyex/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/galaxyex/public_html/wp-settings.php on line 21
+[24-Jun-2015 02:20:26 America/New_York] PHP Fatal error:  require(): Failed opening required '/home/galaxyex/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/galaxyex/public_html/wp-settings.php on line 21

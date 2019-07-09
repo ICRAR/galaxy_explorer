@@ -1,0 +1,106 @@
+/*wordpress admin css*/
+#galaxy_explorer_stats {
+    width: 80%;
+}
+#galaxy_explorer_stats .inside {
+    font-size: 12px;
+    padding-top: 20px;
+}
+#galaxy_explorer_stats .table_users, 
+#galaxy_explorer_stats .table_geographics,
+#galaxy_explorer_stats .table_kelp,
+#galaxy_explorer_stats .table_urchin,
+#galaxy_explorer_stats .table_average_images,
+#galaxy_explorer_stats .table_highest_images,
+#galaxy_explorer_stats .table_age_range,
+#galaxy_explorer_stats .table_age_range_images {
+    border-top-color: #ECECEC;
+}
+#galaxy_explorer_stats .table_users,
+/*#galaxy_explorer_stats .table_kelp,*/
+#galaxy_explorer_stats .table_age_range  {
+    border-top-style: solid;
+    border-top-width: 1px;
+    float: left;
+    width: 52%;
+}
+#galaxy_explorer_stats .all_left{
+	float: left;
+    width: 52%;
+}
+#galaxy_explorer_stats .table_geographics,
+#galaxy_explorer_stats .table_urchin,
+/*#galaxy_explorer_stats .table_average_images,
+#galaxy_explorer_stats .table_highest_images,*/
+#galaxy_explorer_stats .table_age_range_images {
+    border-top-style: solid;
+    border-top-width: 1px;
+    float: right;
+    width: 40%;
+}
+#galaxy_explorer_stats .all_right{
+	 float: right;
+    width: 40%;
+}
+#galaxy_explorer_stats .table {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #FFFFFF;
+    border: 1px solid #eeeeee;
+    padding:15px;
+}
+#galaxy_explorer_stats .table-row:after {
+    clear: both;
+	content: "";
+	display: block;
+}
+#galaxy_explorer_stats .table-row {
+    margin-bottom:45px;
+}
+
+#galaxy_explorer_stats p.sub {
+    color: #8F8F8F;
+    font-size: 14px;
+    margin-top: 0px;
+}
+#galaxy_explorer_stats p.widget_header {
+    color: #8F8F8F;
+    font-size: 14px;
+	border-bottom:1px solid #ECECEC ;
+	padding-bottom:8px;
+}
+#galaxy_explorer_stats table tr.first td {
+    border-top: 0 none;
+}
+#galaxy_explorer_stats table tr.first td {
+    border-top: 0 none;
+}
+#galaxy_explorer_stats .t {
+    color: #333333;
+    font-size: 12px;
+    padding-right: 14px;
+    padding-top: 6px;
+}
+#galaxy_explorer_stats table td {
+    padding: 3px 0;
+    
+}
+#galaxy_explorer_stats .t {
+    
+}
+#galaxy_explorer_stats td.b {
+    font-size: 18px;
+    padding-right: 6px;
+    text-align: right;
+    width: 1%;
+    font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	vertical-align:top;
+}
+#tinymce h3{
+	font-size: 22px;
+	line-height: 25px;
+	margin-bottom: 15px;
+	clear: both;
+	font-weight: bold;
+}

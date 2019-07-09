@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+        <title>Ellipse Tool</title>
+        <meta name="description" content="Ellipse Tool for drawing ellipses around galaxies.">
+        <meta name="keywords" content="Ellipse,Tool,Galaxy">
+        <!--<meta name="author" content="Joseph Dunne, Authors Here">-->
+
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./cutout.css"/>
+        <link rel="stylesheet" href="./index.css"/>
+        <!--<link rel="icon" href="/favicon.ico"/>-->
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h1>Ellipse Tool</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Ellipses</h4>
+                    <button title="Add" id="add_ellipse" type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                    <button title="Copy" id="copy_ellipse" type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-record"></span>
+                    </button>
+                    <button title="Remove" id="remove_ellipse" type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                    <br/>
+                    <ul id="ellipse_list" style="list-style-type:decimal;"></ul>
+                    <br/>
+                    <h4>Points</h4>
+                    <button title="Add" id="add_point" type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                    <button title="Remove" id="remove_point" type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                    <br/>
+                    <ul id="point_list" style="list-style-type:decimal;"></ul>
+                    <br/>
+                    <button id="save_items" type="button" class="btn btn-default">
+                        <span>Save Items</span>
+                    </button>
+                    <button id="clear_items" type="button" class="btn btn-default">
+                        <span>Clear All</span>
+                    </button>
+                    <br/>
+                    <h4>Colors</h4>
+                    <button title="Red" class="color_button btn btn-default" type="button" style="background-color:#FF0000;"></button>
+                    <button title="Orange" class="color_button btn btn-default" type="button" style="background-color:#FF8800;"></button>
+                    <button title="Yellow" class="color_button btn btn-default" type="button" style="background-color:#FFFF00;"></button>
+                    <br/>
+                    <button title="Green" class="color_button btn btn-default" type="button" style="background-color:#00FF00;"></button>
+                    <button title="Blue" class="color_button btn btn-default" type="button" style="background-color:#0000FF;"></button>
+                    <button title="Black" class="color_button btn btn-default" type="button" style="background-color:#000000;"></button>
+                    <br/><br/>
+                    <button id="color_all" type="button" class="btn btn-default">
+                        <span>Apply to all</span>
+                    </button>
+                </div>
+                <div class="col-md-8">
+                    <canvas id="canvas1"></canvas>
+                    <button title = "Zoom in" id="zoom_in" type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                    <button title = "Zoom out" id="zoom_out" type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-minus"></span>
+                    </button>
+                    <button title = "Centre image" id="zoom_centre" type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-unchecked"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script src="./jquery-1.11.2.min.js"></script>
+        <script src="./bootstrap/js/bootstrap.min.js"></script>
+        <script src="./cutout.js"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>

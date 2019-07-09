@@ -1,0 +1,1 @@
+This is NinjaFirewall's logs and cache directory.

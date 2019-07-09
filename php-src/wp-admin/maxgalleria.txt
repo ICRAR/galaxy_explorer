@@ -1,0 +1,2 @@
+06/11/2015 02:45:20 am - copy to C:\sites\galaxy-explorer.localdev\php-src/wp-content/themes/galaxy-explorer/single-maxgallery.php successful
+06/11/2015 02:45:20 am - permalinks updated
